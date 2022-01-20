@@ -1,0 +1,4 @@
+# TodoWhere 조건
+input TodoWhere {
+  todoType: TodoType!
+}

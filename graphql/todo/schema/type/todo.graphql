@@ -1,0 +1,9 @@
+# Todo 할일정의 
+type Todo {
+    # 제목
+    title: String! 
+    # 셜명 
+    content: String!
+    # 타입 
+    type: TodoType!
+}

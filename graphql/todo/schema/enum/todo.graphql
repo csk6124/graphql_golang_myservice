@@ -1,0 +1,7 @@
+# 할일 타입 
+enum TodoType {
+  # 매일
+  DAYLY
+  # 매주
+  WEEKLY
+}

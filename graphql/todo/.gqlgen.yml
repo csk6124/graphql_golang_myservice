@@ -1,0 +1,35 @@
+schema:
+  - schema/**.graphql
+  - ./*.graphql
+
+exec:
+  filename: gen/generated.go
+  package: gen
+
+federation:
+  filename: gen/federation.go
+  package: gen
+
+
+model:
+  filename: gen/graphqlmodel/models_gen.go
+  package: graphqlmodel
+
+
+resolver:
+  layout: follow-schema
+  dir: gen/resolver
+  package: resolver
+
+models:
+  ID:
+    model:
+      - github.com/99designs/gqlgen/graphql.ID
+      - github.com/99designs/gqlgen/graphql.Int
+      - github.com/99designs/gqlgen/graphql.Int64
+      - github.com/99designs/gqlgen/graphql.Int32
+  Int:
+    model:
+      - github.com/99designs/gqlgen/graphql.Int
+      - github.com/99designs/gqlgen/graphql.Int64
+      - github.com/99designs/gqlgen/graphql.Int32
