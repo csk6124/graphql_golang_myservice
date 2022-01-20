@@ -17,7 +17,7 @@ func NewTodo(
 	return instance
 }
 
-// Todo 함수정의
+// Todo 조회
 func (s *todo) Todo(
 	ctx context.Context,
 	where graphqlmodel.TodoWhere,
