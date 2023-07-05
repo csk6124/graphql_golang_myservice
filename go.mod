@@ -6,7 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.15.1
 	github.com/rs/cors v1.8.2
 	github.com/vektah/gqlparser/v2 v2.2.0
-	google.golang.org/grpc v1.43.0
+	google.golang.org/grpc v1.53.0
 )
 
 require (
